@@ -7,8 +7,10 @@ GEM
       bundler (~> 1.0)
       git (>= 1.2.5)
       rake
-    libxml-ruby (2.1.2)
+    libxml-jruby (1.0.0)
     nokogiri (1.4.7)
+    nokogiri (1.4.7-java)
+      weakling (>= 0.0.3)
     rake (0.9.2)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
@@ -19,14 +21,16 @@ GEM
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.6.0)
     shoulda (2.11.3)
+    weakling (0.0.4-java)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   git
   jeweler
-  libxml-ruby (~> 2.1.2)
+  libxml-jruby
   nokogiri (~> 1.4.6)
   rake
   rspec (~> 2.0)
